@@ -36,3 +36,58 @@ else {
 }
 }
 
+Mezclador de colores (ingresar dos colores primarios y retornar la mezcla entre ellos)
+
+public static Strings {
+    int combinacion,combinacion2;
+    int combinacion = Integer.parseInt(JOptionPane.showInputDialog(dame un color primario));
+    int combinacion2 = Integer.parseInt(JOptionPane.showInputDialog(dame otro color primario));
+    int rojo = 2
+    int azul = 4
+    int amarillo = 8
+    int verde = 12
+    int morado = 6
+    int naranja = 10
+    suma = (combinacion + combinacion2);
+    suma = 
+    JOptionPane.showMessageDialog("la combinacion es de color" + suma)
+
+}
+
+Calculadora de velocidad, tiempo y distancia (con menu pedir las variables que se necesiten)
+
+public static Strings {
+    int velocidad,distancia,tiempo;
+    do {
+        String datonece = Integer.parseInt(JOptionPane.showInputDialog("que varable necesitas"));
+        if (datonece = velocidad) {
+        while {
+            public static String {
+            int tiempo = Integer.parseInt(JOptionPane.showInputDialog("dame el tiempo"));
+            int distancia = Integer.parseInt(JOptionPane.showInputDialog("dame la distancia"));
+            int velocidadfinal = (distancia / tiempo);
+            JOptionPane.showMessageDialog("la velocidad es" + velocidadfinal);
+        }
+        }
+        }
+        if (datonece = distancia) {
+            while {
+                public static String {
+                    int tiempo = Integer.parseInt(JOptionPane.showInputDialog("dame el tiempo"));
+                    int velocidad = Integer.parseInt(JOptionPane.showInputDialog("dame la velocidad"));
+                    int distanciafinal = (velocidad * tiempo);
+                    JOptionPane.showInputDialog("la distancia es" + distanciafinal);
+                }
+            }
+        }
+        else {
+            while {
+                public static String {
+                    int velocidad = Integer.parseInt(JOptionPane.showInputDialog("dame la velocidad"));
+                    int distancia = Integer.parseInt(JOptionPane.showInputDialog("dame la distancia"));
+                    int tiempofinal = (velocidad / tiempo);
+                    JOptionPane.showInputDialog("el tiempo es" + tiempofinal);
+                }
+            }
+        }
+    }
